@@ -39,6 +39,7 @@ def camelCase(s):
     s = s.replace(' ','');
     #小写字符串的首字母
     s = s[0:1].lower() + s[1:len(s)]
+    s = s.replace('Id','ID');
     return s;
 
 def under_score(s):
